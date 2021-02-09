@@ -1,0 +1,48 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    -ms-text-size-adjust: 62.5%;
+    -webkit-text-size-adjust: 62.5%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* common */
+
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h1{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:$color2;
+}
+
+/* images*/
+
+img{
+    border-radius: 0.5rem;
+}
+
+img.medum{
+    max-width: 29rem;
+    width: 100%;
+}
